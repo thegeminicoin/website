@@ -1,0 +1,140 @@
+footer {
+    .container {
+        margin-top: 60px;
+        .useful-links {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+            .social-media {
+                .logo {
+                    a {
+                        font-size: 40px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        color: $white;
+                        display: block;
+                        margin-bottom: 30px;
+                    }
+                }
+                p {
+                    max-width: 300px;
+                    margin-bottom: 30px;
+                }
+                .media {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: $second-bg;
+                        i {
+                            font-size: 20px;
+                            color: $white;
+                        }
+                        &:hover {
+                            background-color: $btn-bg;
+                        }
+                    }
+                }
+            }
+            .list {
+                h3 {
+                    font-size: 22px;
+                    text-transform: capitalize;
+                    color: $white;
+                    margin-bottom: 30px;
+                }
+                ul {
+                    li {
+                        margin-bottom: 20px;
+                        a {
+                            display: block;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: $text-color;
+                            text-transform: capitalize;
+                            &:hover {
+                                color: $btn-bg;
+                            }
+                        }
+                    }
+                }
+                .info {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    &:first-of-type {
+                        margin-bottom: 15px;
+                    }
+                    .image {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 4px;
+                        img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 4px;
+                        }
+                    }
+                    .details {
+                        flex: 1;
+                        h4 {
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: $text-color;
+                            transition: .3s;
+                            text-transform: capitalize;
+                            margin-bottom: 10px;
+                            cursor: pointer;
+                            max-width: 300px;
+                            &:hover {
+                                color: $btn-bg;
+                            }
+                        }
+                        h5 {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: $text-color;
+                            text-transform: capitalize;
+                            i {
+                                font-size: 14px;
+                                color: $text-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .copy-right {
+            padding: 30px 0;
+            border-top: 1px solid $text-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-size: 16px;
+            color: $text-color;
+            font-weight: 500;
+            a {
+                font-weight: 700;
+                font-size: 18px;
+                color: $text-color;
+                &:hover {
+                    color: $btn-bg;
+                }
+            }
+        }
+    }
+}
